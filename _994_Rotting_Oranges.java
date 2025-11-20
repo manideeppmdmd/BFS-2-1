@@ -31,9 +31,6 @@ public class _994_Rotting_Oranges {
     if (freshOrange == 0) {
       return 0;
     }
-    if (que.isEmpty()) {
-      return -1;
-    }
 
     while (!que.isEmpty()) {
       ans++;
